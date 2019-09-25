@@ -1,0 +1,36 @@
+html, body {
+	font-family: 'Play', sans-serif;
+	height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+#map {
+  position: relative;
+  left: 15%;
+  height: 70%;
+  width: 70%
+}
+
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
+
+.footer {
+	background-color: #b29758;
+}
+
+
+.nav_css {
+  background-color: #b2975866 !important;
+}
+
