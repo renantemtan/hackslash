@@ -100,8 +100,9 @@ var map;
 		}
 
 		var infoWindow = new google.maps.InfoWindow;
-
-		downloadUrl('http://localhost:3000/views/xml.php', function(data) {
+		// iflocal
+		// downloadUrl('http://localhost:3000/views/xml.php', function(data) {
+		downloadUrl('http://tron.avail.at/views/xml.php', function(data) {
 			var xml = data.responseXML;
 			var markers = xml.documentElement.getElementsByTagName('marker');
 			console.log(markers);
