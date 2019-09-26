@@ -1,7 +1,5 @@
 <?php  
 	include('../model/Classes/ConnectDb.php');
-	include('../model/Classes/CrudUser.php');
-	$crud = new CrudUser();
 ?>
 
 
